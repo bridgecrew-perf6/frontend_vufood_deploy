@@ -1,0 +1,38 @@
+.app__comment {
+    color: white;
+    font-family: var(--font-base);
+}
+
+.app__comment-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.app__comment-comments {
+    display: flex;
+    padding: 50px 0;
+}
+
+.comments__avatar {
+    width: 80px;
+    height: 80px;
+    object-fit: fill;
+    
+}
+
+.comments__avatar img {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.comments__content {
+    background-color: #D9D9D9;
+    color: black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 30px;
+}

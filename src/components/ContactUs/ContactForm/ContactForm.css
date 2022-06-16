@@ -1,0 +1,64 @@
+.app__contactform {
+    background-color: var(--color-yellow);
+    padding-top: 70px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__form-input form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 3rem 0;
+    color: white;
+}
+
+.contact__form-input form input {
+    font-size: 20px;
+    height: 75px;
+    width: 100%;
+    margin: 1.2rem 0;
+    background: rgba(217, 217, 217, 0.37);
+    padding-left: 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+.contact__form-input form textarea {
+    font-size: 20px;
+    height: 275px;
+    width: 100%;
+    margin: 1.2rem 0;
+    background: rgba(217, 217, 217, 0.37);
+    padding-left: 30px;
+    color: white;
+    border-radius: 15px;
+    padding-top: 2rem;
+}
+
+.contact__form-button {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    width: fit-content;
+    padding: 0.7rem 2.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+
+.contact__form-input form button {
+    align-self: flex-end;
+}
+
+.contact__form-images {
+    width: 30%;
+}
+
+.contact__form-images img {
+    width: 100%;
+}

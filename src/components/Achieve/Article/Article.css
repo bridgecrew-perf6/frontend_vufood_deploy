@@ -1,0 +1,29 @@
+.app__article {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: var(--font-base);
+}
+
+.app__article-title {
+  font-size: 32px;
+}
+
+.app__article-desc {
+  font-size: 20px;
+  height: 125px;
+  line-height: 30px;
+  margin: 2rem 0;
+  text-align: justify;
+  overflow: clip;
+}
+
+.app__article-readmore {
+  align-self: center;
+  font-style: italic;
+}
+
+.app__article-line {
+  border: 1px solid white;
+  margin: 3rem;
+}

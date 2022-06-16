@@ -1,0 +1,20 @@
+.App {
+  position: relative;
+}
+
+.section__padding {
+  padding: 0 6rem;
+}
+
+.app__button {
+  background-color: transparent;
+  border: 3px solid var(--color-yellow);
+  color: var(--color-yellow);
+  width: fit-content;
+  padding: 0.7rem 2.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.app__milestones-content{
+    margin-top: 7rem;
+    background-color: var(--color-red);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.milestone {
+    padding-left: 3rem;
+    height: 33%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.milestone__line {
+    width: 3rem;
+    border: 2px solid var(--color-yellow);
+}
+
+.milestone h1, h3 {
+    color: white;
+}
+
+.milestone p {
+    color: var(--color-yellow);
+    width: 100%;
+}

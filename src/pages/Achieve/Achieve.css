@@ -1,0 +1,27 @@
+.app__achieve {
+    background-color: var(--color-blue);
+    padding-top: 330px;
+    font-family: var(--font-base);
+}
+
+.app__achieve-button { 
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__achieve-button button {
+    display: flex;
+
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    width: fit-content;
+    padding: 0.7rem 2.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+
+}

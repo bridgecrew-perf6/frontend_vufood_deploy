@@ -1,0 +1,5 @@
+.app__contactus {
+    background-color: var(--color-yellow);
+    padding-top: 330px;
+    font-family: var(--font-base);
+}

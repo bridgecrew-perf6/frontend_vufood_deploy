@@ -1,0 +1,39 @@
+.app__map {
+    background-color: var(--color-blue);
+    margin-top: 10rem;
+    font-family: var(--font-base);
+}
+
+.app__map-content {
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}
+
+.map__info {
+    background-color: var(--color-red);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+}
+
+.map__info p {
+    color: white;
+    line-height: 27px;
+}
+
+.map__info-title {
+    color: var(--color-yellow);
+    margin-bottom: 1.5rem;
+}
+
+.map__image {
+    width: 60%;
+}
+
+.map__image img {
+    width: 100%;
+}

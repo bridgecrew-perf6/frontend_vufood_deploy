@@ -1,0 +1,27 @@
+.app__post {
+  color: white;
+  font-family: var(--font-base);
+}
+
+.app__post-title {
+  font-size: 50px;
+}
+
+.app__post-desc {
+  font-size: 25px;
+  margin: 3rem 0;
+  line-height: 2.5rem;
+  width: 100%;
+}
+
+.app__post-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+.app__post-image img {
+  width: 60%;
+  object-fit: cover;
+}

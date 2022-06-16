@@ -1,0 +1,72 @@
+.app__quote {
+    display: flex;
+    margin-top: 10%;
+    font-family: var(--font-base);
+    color: var(--color-blue);
+}
+
+.app__quote-info {
+    background-color: var(--color-yellow);
+    width: 45%;
+}
+
+.quote__info-desc {
+    width: 90%;
+    position: relative;
+    height: 75%;
+}
+
+.app__quote-info .quote__info-desc span{
+    font-size: 100px;
+    font-style: italic;
+    position: absolute;
+    top: 3.5rem;
+    left: 3.7rem;
+}
+
+.app__quote-info .quote__info-desc h3 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5rem 0 0 6rem;
+    line-height: 2.7rem;
+}
+
+.quote__info-author {
+    display: flex;
+    padding: 0 3rem 0 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__author-name h2 {
+    font-size: 20px;
+}
+
+.info__author-name h4 {
+    font-size: 14px;
+    margin-top: 7px;
+    font-weight: 400;
+}
+
+.info__author-image img {
+    width: 60%;
+}
+
+.app__quote-video {
+    width: 65%;
+    position: relative;
+}
+
+.app__quote-video svg {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app__quote-video img {
+    width: 100%;
+    height: 100%;
+}

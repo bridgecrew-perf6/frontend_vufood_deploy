@@ -1,0 +1,33 @@
+.app__cateitem {
+    color: white;
+    font-family: var(--font-base);
+}
+
+.app__cateitem-menu {
+    margin-bottom: 4rem;
+}
+
+.app__cateitem-menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 3rem;
+    font-size: 17px;
+}
+
+.app__cateitem-menu ul li {
+    margin-right: 30px;
+    color: #B8B8B8;
+}
+
+.app__cateitem-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app__cateitem-showmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
